@@ -3,28 +3,33 @@ body{
     margin: 0;
 }
 h1{
-    font-weight: 70px;
-    
+    font-size: 60px;
+}
+
+#p{
+    margin-bottom: 50px;
 }
 
 #header-gap{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
-.container{
-    width: 500px;
-    height: 250px;
-    align-items: center;
-    justify-content: center;
-     margin-bottom: 100px;
+section{
+    margin-bottom: 100px;
 }
-div{
-    color: white;
+
+.banner-text{
+    color: black;
     line-height: 0.5;
     text-align: center;
+    
+   
 }
-.banner{
-    background-image: url(images/donation0.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+.donate-button{
+    text-decoration: none;
+    background-color: #ff5959;
+    font-weight: 800;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 20px ;
+    
 }
